@@ -1,0 +1,10 @@
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\bin\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.exe
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\bin\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.deps.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\bin\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.runtimeconfig.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\bin\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.runtimeconfig.dev.json
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\bin\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\bin\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.AssemblyInfoInputs.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.AssemblyInfo.cs
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia02\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia02.pdb

@@ -1,0 +1,4 @@
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBase\bin\Debug\DataBase.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBase\bin\Debug\DataBase.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBase\obj\Debug\DataBase.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBase\obj\Debug\DataBase.pdb

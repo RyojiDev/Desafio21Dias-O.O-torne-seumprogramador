@@ -7,18 +7,31 @@ namespace Desafio21DiasOO.Dia11
     {
         static void Main(string[] args)
         {
-            var fisicas = new Fisica().Busca();
-            var juridicas = new Juridica().Busca();
+            Fisica fisica = new Fisica("Mateus", "123 teste", 1);
 
-            foreach(var item in fisicas)
-            {
-                Console.WriteLine(item);
-            }
+            
 
-            foreach(var item in juridicas)
-            {
-                Console.WriteLine(item);
-            }
+            
+            Console.WriteLine(fisica.);
+
+            new Fisica() { Nome = "Mateus", Endereco = "123 teste", Id = 1 }.Salvar();
+            new Juridica() { Nome = "Empresa Mateus", Endereco = "123 teste", Id = 2 }.Salvar();
+
+
+
+            /* var fisicas = new Fisica().Busca();
+             var juridicas = new Juridica().Busca();
+
+             foreach(var item in fisicas)
+             {
+                 Console.WriteLine(item.Nome);
+
+             }
+
+             foreach(var item in juridicas)
+             {
+                 Console.WriteLine(item);
+             }*/
         }
     }
 }

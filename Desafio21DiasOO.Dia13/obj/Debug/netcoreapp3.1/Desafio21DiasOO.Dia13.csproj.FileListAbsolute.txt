@@ -9,3 +9,11 @@ C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias
 C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia13.AssemblyInfo.cs
 C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia13.dll
 C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia13.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\obj\Debug\netcoreapp3.1\Desafio21DiasOO.Dia13.csproj.CopyComplete
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio21DiasOO.Dia13\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll

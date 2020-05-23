@@ -1,0 +1,5 @@
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBasePessoa\bin\Debug\DataBasePessoa.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBasePessoa\bin\Debug\DataBasePessoa.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBasePessoa\obj\Debug\DataBasePessoa.csprojAssemblyReference.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBasePessoa\obj\Debug\DataBasePessoa.dll
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\DataBasePessoa\obj\Debug\DataBasePessoa.pdb

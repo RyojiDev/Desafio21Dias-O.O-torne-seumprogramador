@@ -63,20 +63,26 @@ namespace ExDesafio21DiasOO.Dia12.Models
 
         public static T Procurar<T>()
         {
-            List<IPessoa> lista = new List<IPessoa>();
-            return (T)Convert.ChangeType(lista, typeof(T));
-
-
-
-            /*if (iPessoa.GetType() == typeof(Fisica))
+            if(typeof(T) == typeof(List<Juridica>))
             {
-                return Servico.TabelaFisica;
-            }
-            else if (iPessoa.GetType() == typeof(Juridica))
+                return (T)Convert.ChangeType(Servico.TabelaJuridica, typeof(T));
+            }else
             {
-                return Servico.TabelaJuridica;
+                return (T)Convert.ChangeType(Servico.TabelaFisica, typeof(T));
             }
-            return null;*/
+            
+        }
+
+        public static T BuscaPorId<T>(int id)
+        {
+            if(typeof(T) == typeof(Juridica))
+            {
+                return (T)Convert.ChangeType(Servico.TabelaJuridica[0], typeof(T));
+            }
+            else
+            {
+                return (T)Convert.ChangeType(Servico.TabelaFisica[0], typeof(T));
+            }
         }
 
         public static List<IPessoa> Procurar(IPessoa iPessoa)

@@ -1,22 +1,23 @@
 ﻿using ExDesafio21DiasOO.Dia13.Interface;
 using ExDesafio21DiasOO.Dia13.Models;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Desafio21DiasOO.Dia13
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             new Fisica() { Nome = "Ryoji Kitano", Endereco = "rua travessa", Id = 1, Cpf = "058855222233" }.Salvar();
             new Juridica() { Nome = "Empresa", Endereco = "rua de teste", Id = 1, Cnpj = "15654654665" }.Salvar();
 
-            var fisicas = Servico.Procurar<Fisica>().ToList();
-            var juridicas = Servico.Procurar<Juridica>().ToList();
-            //var juridicas = Servico.Procurar<List<Juridica>>();
-
+            var fisicas = Servico.Procurar<List<Fisica>>();
+            var juridicas = Servico.Procurar<List<Juridica>>();
 
 
 

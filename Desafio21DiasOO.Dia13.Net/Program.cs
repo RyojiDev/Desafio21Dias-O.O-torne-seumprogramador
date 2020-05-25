@@ -23,6 +23,7 @@ namespace Desafio21DiasOO.Dia13.Net
                 Console.WriteLine();
                 Console.WriteLine("Endereco: " + lista.Endereco);
 
+
             }
         }
     }

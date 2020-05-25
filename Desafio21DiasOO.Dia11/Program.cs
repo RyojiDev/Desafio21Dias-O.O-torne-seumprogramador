@@ -12,7 +12,7 @@ namespace Desafio21DiasOO.Dia11
             
 
             
-            Console.WriteLine(fisica.);
+            Console.WriteLine(fisica.Nome);
 
             new Fisica() { Nome = "Mateus", Endereco = "123 teste", Id = 1 }.Salvar();
             new Juridica() { Nome = "Empresa Mateus", Endereco = "123 teste", Id = 2 }.Salvar();

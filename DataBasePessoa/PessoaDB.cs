@@ -44,10 +44,7 @@ namespace DataBasePessoa
             }
         }
 
-        public string Mostrar()
-        {
-            return "Mostrei";
-        }
+       
 
     }
 }

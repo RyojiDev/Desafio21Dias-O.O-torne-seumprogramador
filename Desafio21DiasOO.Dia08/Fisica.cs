@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Desafio21DiasOO.Dia08.
+namespace Desafio21DiasOO.Dia08
 {
     public class Fisica : Pessoa
     {

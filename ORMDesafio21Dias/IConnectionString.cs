@@ -6,6 +6,6 @@ namespace ORMDesafio21Dias
 {
     public interface IConnectionString
     {
-        public static string ConnectionString;
+        string ConnectionString { get; set; }
     }
 }

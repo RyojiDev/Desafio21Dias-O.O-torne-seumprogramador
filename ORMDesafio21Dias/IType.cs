@@ -4,8 +4,13 @@ using System.Text;
 
 namespace ORMDesafio21Dias
 {
-    interface IType : IConnectionString
+
+    public interface IType
     {
-        public int Id { get; set; }
+       
+         int Id { get; set; }
+
+        
+
     }
 }

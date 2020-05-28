@@ -1,0 +1,6 @@
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio.21.Dias.OO.Rezero\bin\Debug\Desafio.21.Dias.OO.Rezero.exe.config
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio.21.Dias.OO.Rezero\bin\Debug\Desafio.21.Dias.OO.Rezero.exe
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio.21.Dias.OO.Rezero\bin\Debug\Desafio.21.Dias.OO.Rezero.pdb
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio.21.Dias.OO.Rezero\obj\Debug\Desafio.21.Dias.OO.Rezero.csprojAssemblyReference.cache
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio.21.Dias.OO.Rezero\obj\Debug\Desafio.21.Dias.OO.Rezero.exe
+C:\Users\ryoji.kitano\Documents\Ryoji-Projetos\TorneseUmProgramadorDesafio21dias.OO\Desafio.21.Dias.OO.Rezero\obj\Debug\Desafio.21.Dias.OO.Rezero.pdb

@@ -10,7 +10,7 @@ namespace ORMDesafio21Dias
         public virtual int Id {get; set;}
 
         [Table(IsNotOnDataBase = true)]
-        public abstract string ConnectionString { get;set; }
+        public abstract string ConnectionString { get; }
 
         public virtual void Get()
         {

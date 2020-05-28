@@ -31,6 +31,7 @@ namespace ORMDesafio21Dias
                 foreach (var p in this.ctype.GetType().GetProperties())
                 {
                     TableAttribute[] propertyAttributes = (TableAttribute[])p.GetCustomAttributes(typeof(TableAttribute), false);
+
                     if (propertyAttributes != null && propertyAttributes.Length > 0)
                     {
                         if (!propertyAttributes[0].IsNotOnDataBase && string.IsNullOrEmpty(propertyAttributes[0].PrimaryKey))
@@ -39,25 +40,55 @@ namespace ORMDesafio21Dias
                             values.Add(p.GetValue(this.ctype));
                         }
                     }
+                    else
+                    {
+                        columns.Add(p.Name);
+                        values.Add(p.GetValue(this.ctype));
+                    }
                 }
 
                 string table = $"{this.ctype.GetType().Name.ToLower()}s";
 
                 TableAttribute[] tableAttributes = (TableAttribute[])this.ctype.GetType().GetCustomAttributes(typeof(TableAttribute), false);
+
                 if (tableAttributes != null && tableAttributes.Length > 0)
                 {
                     table = tableAttributes[0].Name;
                 }
 
-                string sql = $"insert into {table} (id, nome, endereco, tipo, cpfcnpj) values ( @id, @nome, @endereco, @tipo, @cpfcnpj)";
+                string sql = $"insert into {table} (";
+                sql += string.Join(",", columns);
+                sql += ") values ( ";
+                sql += "@" + string.Join(", @", columns);
+                sql += ")";
 
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.CommandType = CommandType.Text;
 
-                cmd.Parameters.Add("@id", SqlDbType.Int);
-                cmd.Parameters["@id"].Value = ctype.Id;
+                for (var i = 0; i < columns.Count; i++)
+                {
+                    var column = columns[i];
+                    var value = values[i];
 
+                    if (value.GetType() == typeof(int))
+                    {
+                        cmd.Parameters.Add($"@{column}", SqlDbType.Int);
+                    }
+                    else if (value.GetType() == typeof(string))
+                    {
+                        cmd.Parameters.Add($"{column}",SqlDbType.VarChar);
+                    }
+                    else if (value.GetType() == typeof(double)){
+                        cmd.Parameters.Add($"{column}", SqlDbType.Money);
+                    }
+                    else if (value.GetType() == typeof(DateTime))
+                    {
+                        cmd.Parameters.Add($"{column}", SqlDbType.DateTime);
+                    }
 
+                    cmd.Parameters[$"@{column}"].Value = value;
+
+                }
 
 
 
@@ -72,8 +103,6 @@ namespace ORMDesafio21Dias
                 }
             }
         }
-
-
         public void Destroy()
         {
             throw new NotImplementedException();

@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\C#\\Desafios\\Desafio21Dias-O.O-torne-seumprogramador\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj": {}
+    "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\TorneseUmProgramadorDesafio21dias.OO\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\C#\\Desafios\\Desafio21Dias-O.O-torne-seumprogramador\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj": {
+    "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\TorneseUmProgramadorDesafio21dias.OO\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\C#\\Desafios\\Desafio21Dias-O.O-torne-seumprogramador\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj",
+        "projectUniqueName": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\TorneseUmProgramadorDesafio21dias.OO\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj",
         "projectName": "Desafio21DiasOO.Dia07",
-        "projectPath": "D:\\Projetos\\C#\\Desafios\\Desafio21Dias-O.O-torne-seumprogramador\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj",
-        "packagesPath": "C:\\Users\\Iesu Sama Aishiteiru\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\C#\\Desafios\\Desafio21Dias-O.O-torne-seumprogramador\\Desafio21DiasOO.Dia07\\obj\\",
+        "projectPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\TorneseUmProgramadorDesafio21dias.OO\\Desafio21DiasOO.Dia07\\Desafio21DiasOO.Dia07.csproj",
+        "packagesPath": "C:\\Users\\ryoji.kitano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryoji.kitano\\Documents\\Ryoji-Projetos\\TorneseUmProgramadorDesafio21dias.OO\\Desafio21DiasOO.Dia07\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Iesu Sama Aishiteiru\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ryoji.kitano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -57,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

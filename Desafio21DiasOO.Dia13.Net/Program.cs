@@ -12,7 +12,7 @@ namespace Desafio21DiasOO.Dia13.Net
     {
         static void Main(string[] args)
         {
-            Fisica fisica = new Fisica();
+            /*Fisica fisica = new Fisica();
 
             
             foreach(Fisica lista in fisica.ToList()) { 
@@ -24,7 +24,25 @@ namespace Desafio21DiasOO.Dia13.Net
                 Console.WriteLine("Endereco: " + lista.Endereco);
 
 
-            }
+            }*/
+            string table = "";
+            List<string> cols = new List<string>();
+            List<object> values = new List<object>();
+
+            cols.Add("Id");
+            cols.Add("Nome");
+            cols.Add("Endereco");
+            cols.Add("Tipo");
+            cols.Add("CpfCnpj");
+
+            string a = string.Join(",",cols);
+            string b = string.Join(",",$"@{cols}");
+
+            string sql = $"insert into {table} (";
+            sql += "id, nome, endereco, tipo, cpfcnpj";
+            sql += ") values (";
+            sql += "@id, @nome, @endereco, @tipo, @cpfcnpj";
+            sql += ")";
         }
     }
 }

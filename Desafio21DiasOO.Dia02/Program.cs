@@ -1,4 +1,5 @@
 ﻿using Desafio21DiasOO.Dia02.Models.Alunos;
+using ORMDesafio21Dias;
 using System;
 using System.Collections.Generic;
 
@@ -8,7 +9,7 @@ namespace Desafio21DiasOO.Dia02
     {
         static void Main(string[] args)
         {
-            Pessoa danilo = new Pessoa();
+            /*Pessoa danilo = new Pessoa();
             danilo.Id = 1;
             danilo.Nome = "Danilo Aparecido";
             danilo.Endereco = "Rua 1234";
@@ -31,7 +32,13 @@ namespace Desafio21DiasOO.Dia02
 
             
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");*/
+
+            Pessoa pessoa = new Pessoa();
+            pessoa.Nome = "Ryoji";
+            pessoa.Endereco = "Rua de teste ORM";
+            new Service(pessoa).Save();
+           
         }
     }
 }

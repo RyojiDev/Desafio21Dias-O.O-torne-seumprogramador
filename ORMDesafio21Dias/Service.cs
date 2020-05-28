@@ -57,7 +57,7 @@ namespace ORMDesafio21Dias
                 }
 
                 string sql = $"insert into {table} (";
-                sql += string.Join(",", columns);
+                sql += string.Join(',', columns);
                 sql += ") values ( ";
                 sql += "@" + string.Join(", @", columns);
                 sql += ")";
@@ -76,14 +76,14 @@ namespace ORMDesafio21Dias
                     }
                     else if (value.GetType() == typeof(string))
                     {
-                        cmd.Parameters.Add($"{column}",SqlDbType.VarChar);
+                        cmd.Parameters.Add($"@{column}",SqlDbType.VarChar);
                     }
                     else if (value.GetType() == typeof(double)){
-                        cmd.Parameters.Add($"{column}", SqlDbType.Money);
+                        cmd.Parameters.Add($"@{column}", SqlDbType.Money);
                     }
                     else if (value.GetType() == typeof(DateTime))
                     {
-                        cmd.Parameters.Add($"{column}", SqlDbType.DateTime);
+                        cmd.Parameters.Add($"@{column}", SqlDbType.DateTime);
                     }
 
                     cmd.Parameters[$"@{column}"].Value = value;

@@ -13,8 +13,7 @@ namespace Desafio21DiasOO.Dia02.Models.Alunos
         public string Endereco { get; set; }
 
         [Table(IsNotOnDataBase = true)]
-        public override string ConnectionString 
-        { get => @"server=(LocalDB)\MSSQLLocalDB;database=PessoaTorneseUmProgramador;uid=vetMaster;password=vetmaster;"; }
+        public override string ConnectionString => @"server=(LocalDB)\MSSQLLocalDB;database=PessoaTorneseUmProgramador;uid=vetMaster;password=vetmaster;";
 
         public Pessoa()
         {
